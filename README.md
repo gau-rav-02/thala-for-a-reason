@@ -2,7 +2,7 @@
 
 This project is built with React.
 
-Check Here - [Thala For a Reason](https://github.com/lukePeavey/quotable).
+Check Here - [Thala For a Reason]([https://github.com/lukePeavey/quotable](https://thala-for-a-reason-app.netlify.app/)).
 
 ## Screenshot
 
