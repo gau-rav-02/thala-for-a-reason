@@ -7,7 +7,7 @@ const CheckButton = (props) => {
     const popupcontext = useContext(PopupContext);
 
     function checkForThala() {
-        if(popupcontext.text.length == 7 || popupcontext.text == 7 || popupcontext.text == "seven" || popupcontext.text == "SEVEN" || popupcontext.text == "Seven"){
+        if(popupcontext.text.length === 7 || popupcontext.text === "7" || popupcontext.text === "seven" || popupcontext.text === "SEVEN" || popupcontext.text === "Seven"){
             popupcontext.setThala([require('../images/dhoni.gif'), require('../music/BoleJo.mp3'), 'Thala For a Reason...']);
             popupcontext.setValue(true);
         }
